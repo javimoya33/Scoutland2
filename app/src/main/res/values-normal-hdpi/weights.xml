@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="height_translation">15</integer>
+
+    <!-- Dimensiones de la tabla de estadísticas -->
+    <integer name="size_icon_stats">25</integer>
+    <integer name="margin_lateral_title_stats">5</integer>
+    <integer name="margin_superior_title_stats">10</integer>
+    <integer name="margin_lateral_stats">10</integer>
+    <integer name="margin_superior_stats">5</integer>
+
+    <!-- Dimensiones icono de fortalezas y debilidades -->
+    <integer name="size_icon_fortdeb">30</integer>
+
+</resources>

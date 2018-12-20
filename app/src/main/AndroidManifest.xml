@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jmm.futbol.futuros.cracks">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@mipmap/ic_new_logo5"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:largeHeap="true">
+        <activity android:name="jmm.futbol.futuros.cracks.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="jmm.futbol.futuros.cracks.viewPlayerReadingMode"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+    <supports-screens
+        android:smallScreens="false"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true"/>
+</manifest>

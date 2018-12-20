@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Peso de la distribución de los tabs del popup -->
+    <integer name="weight_buttons_popup">60</integer>
+    <integer name="weight_close_popup">30</integer>
+
+    <!-- Peso de la distribución de las partes del header del activity_player -->
+    <integer name="weight_header_cabecera">30</integer>
+    <integer name="weight_header_linearHeader">220</integer>
+    <integer name="weight_header_slidingTabLayout">70</integer>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dimensiones del Toolbar -->
+    <dimen name="height_toolbar">65dp</dimen>
+    <dimen name="elevation_toolbar">8dp</dimen>
+
+    <!-- Dimensiones del logo cuadrado -->
+    <dimen name="layout_margin_logo_cuadrado">0dp</dimen>
+    <dimen name="padding_logo_cuadrado">0dp</dimen>
+    <dimen name="elevation_logo_cuadrado">4dp</dimen>
+
+    <!-- Dimensiones del título del Toolbar -->
+    <dimen name="padding_tittle_toolbar">4dp</dimen>
+    <dimen name="margin_tittle_toolbar">8dp</dimen>
+
+    <!-- Dimensiones del botón del Toolbar -->
+    <dimen name="width_button_toolbar">25dp</dimen>
+    <dimen name="margin_button_toolbar">3dp</dimen>
+
+    <!-- Dimensiones de las imágenes de la vista principal -->
+    <dimen name="img_main_row1">415dp</dimen>
+    <dimen name="img_main_row2">315dp</dimen>
+    <dimen name="img_main_row3">230dp</dimen>
+    <dimen name="img_main_row4">280dp</dimen>
+    <dimen name="img_main_row5">230dp</dimen>
+    <dimen name="height_relativeLayout_row5">190dp</dimen>
+
+    <!-- Dimensiones del linearAppBar -->
+    <dimen name="height_linearAppBar">45dp</dimen>
+
+    <!-- Dimensiones del item popup -->
+    <dimen name="height_view_item">1dp</dimen>
+    <dimen name="size_img_card_league">60dp</dimen>
+    <dimen name="size_letter_name_player_card">19sp</dimen>
+    <dimen name="size_letter_surname_player_card">24sp</dimen>
+    <dimen name="size_letter_info_player_card">19sp</dimen>
+    <dimen name="size_letter_num_players">19sp</dimen>
+    <dimen name="width_arrow_card">35dp</dimen>
+
+    <!-- Tamaño letra Cabecera -->
+    <dimen name="height_cabecera">40dp</dimen>
+
+    <!-- Dimensiones imagen perfil jugador -->
+    <dimen name="width_profile_player">137dp</dimen>
+    <dimen name="height_profile_player">182dp</dimen>
+
+    <!-- Dimensiones informacion principal jugador -->
+    <dimen name="size_letter_name_player">21sp</dimen>
+    <dimen name="size_letter_surname_player">27sp</dimen>
+    <dimen name="size_letter_statement">18sp</dimen>
+    <dimen name="size_letter_info_player">19sp</dimen>
+    <dimen name="size_flag_country_birth">19dp</dimen>
+    <dimen name="padding_demTxtJugador">3dp</dimen>
+    <dimen name="margin_right_demarcation">5dp</dimen>
+    <dimen name="width_demarcation">100dp</dimen>
+    <dimen name="height_demarcation">50dp</dimen>
+
+    <!-- Dimensiones del SlidingTabLayout -->
+    <dimen name="height_slidingTabLayout">52dp</dimen>
+    <dimen name="size_letter_slidingTabLayout">11sp</dimen>
+    <dimen name="height_view_slidingTabLayout">5dp</dimen>
+
+    <!-- ***** recycler_bioplay.xml ***** -->
+    <dimen name="height_space_scroll_bioplaystats">305dp</dimen>
+    <dimen name="size_letter_text_scroll_bioplaystats">14sp</dimen>
+    <dimen name="size_letter_title_values_players">24sp</dimen>
+    <dimen name="size_letter_values_players">14sp</dimen>
+    <dimen name="size_img_iconStat">40dp</dimen>
+
+</resources>

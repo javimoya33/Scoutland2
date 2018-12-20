@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearContentStats"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#e7e4df"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearStats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FAF8F4">
+
+            <ImageView
+                android:id="@+id/imgIconStatTxt"
+                android:layout_width="@dimen/size_img_iconStat"
+                android:layout_height="@dimen/size_img_iconStat"
+                android:layout_margin="@dimen/margin_img_iconStat"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_player" />
+
+            <RelativeLayout
+                android:id="@+id/relativeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FAF8F4"
+                android:layout_toEndOf="@id/imgIconStatTxt"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Titulo"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/size_letter_titlestats"
+                    style="@style/titleStats" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_bottom_img_scroll_bioplaystats"
+            android:paddingTop="@dimen/margin_top_img_scroll_bioplaystats"
+            android:background="#FAF8F4" />
+
+        <View
+            android:id="@+id/viewStat"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_viewstats"
+            android:background="@drawable/background_view_stats"
+            android:layout_margin="@dimen/margin_viewstats"
+            android:layout_marginTop="@dimen/marginTop_viewstats" />
+
+    </LinearLayout>
+
+</LinearLayout>

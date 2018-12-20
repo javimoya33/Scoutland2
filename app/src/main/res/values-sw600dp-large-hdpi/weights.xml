@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Peso de las secciones del Activity_view_player -->
+    <integer name="weight_header_izq">40</integer>
+    <integer name="weight_header_der">60</integer>
+
+    <!-- Dimensiones de la tabla de estadísticas -->
+    <integer name="size_icon_stats">45</integer>
+
+    <integer name="size_icon_fortdeb">32</integer>
+
+</resources>

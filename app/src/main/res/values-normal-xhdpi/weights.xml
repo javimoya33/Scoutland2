@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Peso de las secciones del Activity_view_player -->
+    <integer name="weight_header_izq">35</integer>
+    <integer name="weight_header_der">65</integer>
+
+    <integer name="height_translation">5</integer>
+
+    <!-- Dimensiones icono de fortalezas y debilidades -->
+    <integer name="size_icon_fortdeb">50</integer>
+
+    <!-- Dimensiones de la tabla de estadísticas -->
+    <integer name="size_icon_stats">55</integer>
+    <integer name="margin_lateral_title_stats">15</integer>
+    <integer name="margin_superior_title_stats">10</integer>
+    <integer name="margin_lateral_stats">8</integer>
+    <integer name="margin_superior_stats">5</integer>
+
+</resources>

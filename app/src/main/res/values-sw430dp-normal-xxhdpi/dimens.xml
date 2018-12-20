@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dimensiones de las imágenes de la vista principal -->
+    <dimen name="img_main_row4">250dp</dimen>
+
+    <!-- ***** recycler_bioplay.xml ***** -->
+    <dimen name="size_letter_values_players">8sp</dimen>
+
+</resources>

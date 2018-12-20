@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ***** recycler_bioplay.xml ***** -->
+    <dimen name="size_letter_text_scroll_bioplaystats">17sp</dimen>
+    <dimen name="marginLeft_values_players">7dp</dimen>
+
+    <!-- Dimensiones del SlidingTabLayout -->
+    <dimen name="size_letter_slidingTabLayout">19sp</dimen>
+
+</resources>

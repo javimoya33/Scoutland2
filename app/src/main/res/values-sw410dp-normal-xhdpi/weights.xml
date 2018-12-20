@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="height_translation">0</integer>
+
+    <!-- Dimensiones icono de fortalezas y debilidades -->
+    <integer name="size_icon_fortdeb">40</integer>
+
+    <integer name="height_gifAnalisisPlayer">550</integer>
+
+</resources>

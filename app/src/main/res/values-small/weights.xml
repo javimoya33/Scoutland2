@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="weight_buttons_popup">74</integer>
+    <integer name="weight_close_popup">26</integer>
+
+</resources>

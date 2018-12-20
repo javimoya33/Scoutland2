@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dimensiones del Toolbar -->
+    <dimen name="height_toolbar">85dp</dimen>
+    <dimen name="elevation_toolbar">12dp</dimen>
+
+    <!-- Dimensiones de las imágenes de la vista principal -->
+    <dimen name="img_main_row1">510dp</dimen>
+    <dimen name="img_main_row2">426dp</dimen>
+    <dimen name="img_main_row3">320dp</dimen>
+    <dimen name="img_main_row4">400dp</dimen>
+    <dimen name="margin_img">4dp</dimen>
+
+    <!-- Dimensiones de la Cabecera -->
+    <dimen name="height_cabecera">65dp</dimen>
+    <dimen name="size_letter_cabecera">25sp</dimen>
+    <dimen name="padding_arrow_cabecera">2dp</dimen>
+
+    <!-- Dimensiones imagen perfil jugador -->
+    <dimen name="height_profile_player">302dp</dimen>
+    <dimen name="margin_left_profile_player">6dp</dimen>
+    <dimen name="margin_right_profile_player">12dp</dimen>
+
+    <!-- Dimensiones informacion principal jugador -->
+    <dimen name="margin_name_player">-7dp</dimen>
+    <dimen name="size_letter_name_player">37sp</dimen>
+    <dimen name="size_letter_surname_player">41sp</dimen>
+    <dimen name="size_letter_statement">21sp</dimen>
+    <dimen name="size_letter_info_player">23sp</dimen>
+    <dimen name="size_flag_country_birth">25dp</dimen>
+    <dimen name="margin_top_demarcation">8dp</dimen>
+    <dimen name="height_demarcation">90dp</dimen>
+
+    <!-- Dimensiones del SlidingTabLayout -->
+    <dimen name="height_slidingTabLayout">75dp</dimen>
+    <dimen name="size_letter_slidingTabLayout">16sp</dimen>
+
+    <!-- ***** scroll_bioplaystats_tab.xml ***** -->
+    <dimen name="height_space_scroll_bioplaystats">140dp</dimen>
+    <dimen name="margin_top_img_scroll_bioplaystats">14dp</dimen>
+    <dimen name="margin_bottom_img_scroll_bioplaystats">18dp</dimen>
+    <dimen name="size_letter_text_scroll_bioplaystats">16sp</dimen>
+
+    <!-- Dimensiones del linearAppBar -->
+    <dimen name="height_linearAppBar">55dp</dimen>
+
+    <!-- Dimensiones del item popup -->
+    <dimen name="tab_popup_icon_size">32dp</dimen>
+    <dimen name="padding_item">4dp</dimen>
+    <dimen name="height_view_item">1dp</dimen>
+    <dimen name="padding_layout_card">2dp</dimen>
+    <dimen name="size_img_card">120dp</dimen>
+    <dimen name="padding_left_info_card">18dp</dimen>
+    <dimen name="size_letter_league_card">30sp</dimen>
+    <dimen name="size_letter_num_players">25sp</dimen>
+    <dimen name="width_arrow_card">15dp</dimen>
+    <dimen name="margin_bottom_name_player_card">-3dp</dimen>
+    <dimen name="size_letter_name_player_card">26sp</dimen>
+    <dimen name="size_letter_surname_player_card">30sp</dimen>
+    <dimen name="size_letter_info_player_card">22sp</dimen>
+
+    <!-- Recurso para dimensiones match_parent o wrap_content -->
+    <item name="match_parent" format="integer" type="dimen">-1</item>
+    <item name="wrap_content" format="integer" type="dimen">-2</item>
+</resources>

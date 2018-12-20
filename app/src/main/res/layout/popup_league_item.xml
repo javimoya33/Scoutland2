@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/league_item"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linear_popup_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/popup_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6925377246649300/8137083589">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewPopupLeagueItem"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_view_item"
+        android:background="@android:color/black" />
+
+    <RelativeLayout
+        android:id="@+id/card_league"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:padding="@dimen/padding_layout_card">
+
+        <ImageView
+            android:id="@+id/imagenLiga"
+            android:layout_width="@dimen/size_img_card_league"
+            android:layout_height="@dimen/size_img_card_league"
+            android:layout_weight="35"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_player"
+            android:paddingLeft="@dimen/padding_img_card" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="55"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/padding_left_info_card"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_centerInParent="true">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/nombreLiga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textColor="#EDEDED"
+                    android:textSize="@dimen/size_letter_league_card"
+                    android:text="LaLiga"
+                    android:layout_gravity="center"
+                    android:layout_column="10" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/numJugadores"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#EDEDED"
+                    android:textSize="@dimen/size_letter_num_players"
+                    android:text="2 jugadores"
+                    android:layout_gravity="center"
+                    android:layout_column="10" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/arrow_navig"
+            android:layout_width="@dimen/width_arrow_card"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center_vertical"
+            android:tint="@color/colorAccent"
+            android:src="@mipmap/ic_arrow_right5"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentEnd="true"
+            android:layout_toStartOf="@id/arrow_navig"
+            android:layout_centerInParent="true"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentRight="false" />
+
+    </RelativeLayout>
+
+</LinearLayout>

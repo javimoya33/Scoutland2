@@ -1,0 +1,63 @@
+<app.example.parallaxviewpage.NotifyingScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false"
+    android:scrollbars="none"
+    tools:context="jmm.futbol.futuros.cracks.FragmentsContentPlayer.StatFragment"
+    tools:showIn="@layout/activity_view_player"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/espacioInicial"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_space_scroll_bioplaystats"
+            android:visibility="visible"/>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <HorizontalScrollView
+                    android:id="@+id/scrollStats"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableLayout
+                            android:id="@+id/tableStats"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_stats"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</app.example.parallaxviewpage.NotifyingScrollView>

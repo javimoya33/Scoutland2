@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dimensiones icono de fortalezas y debilidades -->
+    <integer name="size_icon_fortdeb">21</integer>  <!-- 20 -->
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tab_textview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_sliding_tab_view"
+    android:gravity="center"
+    tools:text="Inbox"
+    android:textSize="@dimen/size_letter_sliding_tab_view"
+    android:maxLines="1"
+    android:ellipsize="end"
+    android:textColor="@android:color/white">
+
+</TextView>

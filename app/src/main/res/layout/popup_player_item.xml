@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_item"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_item">
+
+    <LinearLayout
+        android:id="@+id/linear_popup_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/popup_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6925377246649300/8137083589">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_view_item"
+        android:background="@android:color/black" />
+
+    <RelativeLayout
+        android:id="@+id/card_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ImageView
+            android:id="@+id/imagenJugador"
+            android:layout_width="@dimen/width_img_card_player"
+            android:layout_height="@dimen/height_img_card_player"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/marginLeft_img_card_player"
+            android:paddingLeft="@dimen/padding_img_card"
+            android:src="@drawable/icon_player"
+            android:scaleType="fitXY"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="55"
+            android:layout_gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/padding_left_info_card"
+            android:layout_toEndOf="@+id/imagenJugador">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100"
+                android:layout_gravity="center|right">
+
+                <TextView
+                    android:id="@+id/nombreJugador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_bottom_name_player_card"
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:textColor="#EDEDED"
+                    android:textSize="@dimen/size_letter_name_player_card"
+                    android:text="Federico"
+                    android:layout_gravity="left|center" />
+
+                <TextView
+                    android:id="@+id/edadNacJugador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:gravity="center"
+                    android:textColor="#EDEDED"
+                    android:textSize="@dimen/size_letter_info_player_card"
+                    android:text="Tottenham H."
+                    android:layout_gravity="left|center" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|center"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/apellidoJugador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="30"
+                    android:textColor="#EDEDED"
+                    android:textSize="@dimen/size_letter_surname_player_card"
+                    android:text="Bernardeschi"
+                    android:gravity="center"
+                    android:layout_gravity="left|center" />
+
+                <TextView
+                    android:id="@+id/equipoJugador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="70"
+                    android:layout_marginTop="@dimen/margin_bottom_name_player_card"
+                    android:gravity="center"
+                    android:textColor="#EDEDED"
+                    android:textSize="@dimen/size_letter_info_player_card"
+                    android:text="21 años, MP"
+                    android:layout_gravity="left|center" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/arrow_navig"
+            android:layout_width="@dimen/width_arrow_card"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:layout_gravity="center_vertical|right"
+            android:tint="@color/colorAccent"
+            android:src="@mipmap/ic_arrow_right5"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

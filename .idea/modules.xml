@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ElOjeador.iml" filepath="$PROJECT_DIR$/ElOjeador.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/TextJustify-Android-master/TextJustify-Android-master.iml" filepath="$PROJECT_DIR$/libraries/TextJustify-Android-master/TextJustify-Android-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parallaxviewpager/parallaxviewpager.iml" filepath="$PROJECT_DIR$/parallaxviewpager/parallaxviewpager.iml" />
+    </modules>
+  </component>
+</project>

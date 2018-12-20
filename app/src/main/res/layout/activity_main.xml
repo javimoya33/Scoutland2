@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="jmm.futbol.futuros.cracks.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_toolbar"
+        android:elevation="@dimen/elevation_toolbar">
+
+        <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorAccent"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <RelativeLayout
+            android:id="@+id/relativeContenidoToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="6">
+
+            <ImageButton
+                android:id="@+id/img_logo_cuadrado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_new_logo4"
+                android:background="@android:color/transparent"
+                android:layout_alignParentStart="true"
+                android:layout_margin="@dimen/margin_button_toolbar"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true" />
+
+            <ImageButton
+                android:id="@+id/img_logo_hor"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/scoutland_logo_main2"
+                android:background="@android:color/transparent"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="@dimen/margin_tittle_toolbar"
+                android:layout_marginRight="@dimen/margin_tittle_toolbar"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentEnd="false"
+                android:layout_weight="5"
+                android:scaleType="fitCenter"
+                android:padding="@dimen/padding_tittle_toolbar"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+                android:id="@+id/but_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_menu4"
+                android:background="@android:color/transparent"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="@dimen/margin_button_toolbar"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeToolbar"
+        android:background="@drawable/background_content_main"
+        android:layout_marginTop="@dimen/marginTop_relativeContent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_view_relativeContent"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/shadow_toolbar" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_relativeContent">
+
+            <LinearLayout
+                android:id="@+id/mainStructure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal">
+
+                    <com.google.android.gms.ads.AdView
+                        xmlns:ads="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/main_banner1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        ads:adSize="BANNER"
+                        ads:adUnitId="ca-app-pub-6925377246649300/5769639228">
+                    </com.google.android.gms.ads.AdView>
+
+                </LinearLayout>
+
+                <!-- Primera fila -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgRow1Col1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/img_main_row1"
+
+                        android:layout_weight="6"
+                        android:layout_margin="@dimen/margin_img"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:text="" />
+
+                </LinearLayout>
+
+                <!-- Segunda fila -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgRow2Col1"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/img_main_row2"
+                        android:layout_weight="3"
+                        android:layout_margin="@dimen/margin_img"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:text="" />
+
+                    <ImageView
+                        android:id="@+id/imgRow2Col2"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/img_main_row2"
+                        android:layout_weight="3"
+                        android:layout_margin="@dimen/margin_img"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:text="" />
+
+                </LinearLayout>
+
+                <!-- Tercera fila -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgRow3Col1"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/img_main_row3"
+                        android:adjustViewBounds="false"
+                        android:scaleType="fitXY"
+                        android:text=""
+                        android:layout_marginLeft="@dimen/margin_img"
+                        android:layout_marginRight="@dimen/margin_img"
+                        android:layout_marginTop="@dimen/margin_img"
+                        android:layout_marginBottom="@dimen/margin_img"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentEnd="false" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal">
+
+                    <com.google.android.gms.ads.AdView
+                        xmlns:ads="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/main_banner2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        ads:adSize="BANNER"
+                        ads:adUnitId="ca-app-pub-6925377246649300/5332200113">
+                    </com.google.android.gms.ads.AdView>
+
+                </LinearLayout>
+
+                <!-- Cuarta fila -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgRow4Col1"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/img_main_row4"
+                        android:layout_weight="6"
+                        android:layout_margin="@dimen/margin_img"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:text=""/>
+
+                    <ImageView
+                        android:id="@+id/imgRow4Col2"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/img_main_row4"
+                        android:layout_weight="6"
+                        android:layout_margin="@dimen/margin_img"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:text=""/>
+
+                </LinearLayout>
+
+                <!-- Quinta fila -->
+
+                <LinearLayout
+                    android:id="@+id/linearRow5"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/img_main_row5"
+                    android:orientation="horizontal"
+                    android:layout_margin="@dimen/margin_img"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/banner_proximamente">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_relativeLayout_row5"
+                        android:layout_weight="2"
+                        android:layout_gravity="bottom">
+
+                        <ImageView
+                            android:id="@+id/imgRow5Col1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/marginBottom_img_row5_col1"
+                            android:layout_marginRight="@dimen/marginRight_img_row5_col1"
+                            android:layout_marginLeft="@dimen/marginLeft_img_row5_col1"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:visibility="visible" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_relativeLayout_row5"
+                        android:layout_weight="2"
+                        android:layout_gravity="bottom">
+
+                        <ImageView
+                            android:id="@+id/imgRow5Col2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/marginBottom_img_row5_col2"
+                            android:layout_marginRight="@dimen/marginLeft_img_row5_col2"
+                            android:layout_marginLeft="@dimen/marginRight_img_row5_col2"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:visibility="visible" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_relativeLayout_row5"
+                        android:layout_weight="2"
+                        android:layout_gravity="bottom">
+
+                        <ImageView
+                            android:id="@+id/imgRow5Col3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/marginBottom_img_row5_col3"
+                            android:layout_marginRight="@dimen/marginRight_img_row5_col3"
+                            android:layout_marginLeft="@dimen/marginLeft_img_row5_col3"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:visibility="visible" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/main_banner_inferior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6925377246649300/8896998469">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativePopup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin_relativePopup"
+            android:weightSum="100"
+            android:layout_alignParentStart="true"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_view_relativePopup"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/shadow_toolbar" />
+
+            <LinearLayout
+                android:id="@+id/linearAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_linearAppBar"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="false"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding_relativePopup"
+                android:weightSum="100"
+                android:background="@drawable/background_tabs">
+
+                <android.support.design.widget.AppBarLayout
+                    android:id="@+id/appbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:layout_margin="@dimen/margin_AppBar"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="@integer/weight_buttons_popup"
+                    app:elevation="@dimen/elevation_AppBar">
+
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/tabs"
+                        android:background="@android:color/transparent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipToPadding="false"
+                        android:paddingLeft="@dimen/paddingLeft_TabLayout"
+                        android:paddingRight="@dimen/paddingRight_TabLayout"/>
+
+                </android.support.design.widget.AppBarLayout>
+
+                <ImageButton
+                    android:id="@+id/close_popup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/padding_closePopup"
+                    android:src="@drawable/icon_close"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:layout_toRightOf="@id/appbar"
+                    android:layout_weight="@integer/weight_close_popup"
+                    android:background="@android:color/transparent"
+                    android:cropToPadding="false"
+                    android:contextClickable="false" />
+
+            </LinearLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/linearAppBar"
+                android:background="@drawable/shape_menu_popup"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

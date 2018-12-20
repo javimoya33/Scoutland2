@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableDemarcaciones"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/margin_right_demarcation"
+    android:layout_weight="20">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dem1TxtJugador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_demTxtJugador"
+            android:text=" - "
+            android:textSize="@dimen/size_letter_info_player_card" />
+
+        <View
+            android:id="@+id/view1Demarc"
+            android:layout_width="@dimen/view_demarc"
+            android:layout_height="match_parent"
+            android:background="#FFF" />
+
+        <TextView
+            android:id="@+id/dem2TxtJugador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_demTxtJugador"
+            android:text=" - "
+            android:textSize="@dimen/size_letter_info_player_card" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/view2Demarc"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_demarc"
+            android:background="#FFF" />
+
+        <View
+            android:id="@+id/view3Demarc"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_demarc"
+            android:background="#FFF" />
+
+        <View
+            android:id="@+id/view4Demarc"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_demarc"
+            android:background="#FFF" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dem3TxtJugador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="@dimen/padding_demTxtJugador"
+            android:text=" - "
+            android:textSize="@dimen/size_letter_info_player_card" />
+
+        <View
+            android:id="@+id/view5Demarc"
+            android:layout_width="@dimen/view_demarc"
+            android:layout_height="match_parent"
+            android:background="#FFF" />
+
+        <TextView
+            android:id="@+id/dem4TxtJugador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/padding_demTxtJugador"
+            android:text=" - "
+            android:textSize="@dimen/size_letter_info_player_card" />
+
+    </TableRow>
+
+</TableLayout>

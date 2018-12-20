@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dimensiones de las imágenes de la vista principal -->
+    <dimen name="img_main_row1">880dp</dimen>
+    <dimen name="img_main_row2">730dp</dimen>
+    <dimen name="img_main_row3">500dp</dimen>
+    <dimen name="img_main_row4">600dp</dimen>
+    <dimen name="img_main_row5">450dp</dimen>
+    <dimen name="height_relativeLayout_row5">370dp</dimen>
+
+    <!-- Dimensiones del SlidingTabLayout -->
+    <dimen name="height_slidingTabLayout">80dp</dimen>
+    <dimen name="size_letter_slidingTabLayout">20sp</dimen>
+    <dimen name="height_view_slidingTabLayout">10dp</dimen>
+    <item name="padding_slidingTabLayout" format="float" type="dimen">28.57</item>
+
+    <!-- ***** recycler_bioplay.xml ***** -->
+    <dimen name="height_space_scroll_bioplaystats">500dp</dimen>
+    <dimen name="margin_top_img_scroll_bioplaystats">14dp</dimen>
+    <dimen name="margin_bottom_img_scroll_bioplaystats">22dp</dimen>
+    <dimen name="size_letter_text_scroll_bioplaystats">25sp</dimen>
+    <dimen name="padding_relativeLayout_scroll_bioplaystats">5sp</dimen>
+    <dimen name="padding_linearLayout_scroll_bioplaystats">5sp</dimen>
+    <dimen name="height_img_bioplay">@dimen/wrap_content</dimen>
+    <dimen name="marginRight_linearListaFortJugador">20dp</dimen>
+    <dimen name="marginLeft_values_players">20dp</dimen>
+    <dimen name="marginBottom_values_players">30dp</dimen>
+    <dimen name="size_letter_title_values_players">38sp</dimen>
+    <dimen name="size_letter_values_players">28sp</dimen>
+    <item name="marginTop_values_players" format="integer" type="dimen">0</item>
+    <dimen name="size_img_iconStat">60dp</dimen>
+
+    <!-- ***** recycler_stats.xml and scroll_bioplay.xml ***** -->
+    <dimen name="height_img_iconStat">60dp</dimen>
+    <dimen name="margin_img_iconStat">16dp</dimen>
+    <dimen name="size_letter_titlestats">45sp</dimen>
+    <dimen name="height_viewstats">2dp</dimen>
+    <dimen name="margin_viewstats">10dp</dimen>
+    <dimen name="marginTop_viewstats">50dp</dimen>
+
+</resources>

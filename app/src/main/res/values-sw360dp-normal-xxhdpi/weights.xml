@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Peso de las secciones del Activity_view_player -->
+    <integer name="weight_header_izq">35</integer>
+    <integer name="weight_header_der">65</integer>
+
+    <!-- Dimensiones icono de fortalezas y debilidades -->
+    <integer name="size_icon_fortdeb">40</integer>
+    <integer name="height_gifAnalisisPlayer">550</integer>
+
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">12dp</dimen>
+    <dimen name="activity_vertical_margin">12dp</dimen>
+    <dimen name="activity_middleline_margin">6dp</dimen>
+    <dimen name="activity_rightline_margin">2dp</dimen>
+    <dimen name="activity_container_margin">10dp</dimen>
+    <dimen name="margin_column_tablestats">4dp</dimen>
+
+    <dimen name="tab_height">38dp</dimen>
+    <dimen name="imageview_height">154dp</dimen>
+    <dimen name="header_height">238dp</dimen>
+    <dimen name="min_header_height">420dp</dimen>
+
+    <!-- ***** activity_main.xml ***** -->
+    <!-- Dimensiones del Toolbar -->
+    <dimen name="height_toolbar">80dp</dimen>
+    <dimen name="elevation_toolbar">16dp</dimen>
+
+    <!-- Dimensiones del logo cuadrado -->
+    <dimen name="layout_margin_logo_cuadrado">0dp</dimen>
+    <dimen name="padding_logo_cuadrado">0dp</dimen>
+    <dimen name="elevation_logo_cuadrado">8dp</dimen>
+
+    <!-- Dimensiones del título del Toolbar -->
+    <dimen name="padding_tittle_toolbar">8dp</dimen>
+    <dimen name="margin_tittle_toolbar">16dp</dimen>
+
+    <!-- Dimensiones del botón del Toolbar -->
+    <dimen name="width_button_toolbar">50dp</dimen>
+    <dimen name="margin_button_toolbar">6dp</dimen>
+
+    <!-- Dimensiones de la separación -->
+    <dimen name="height_separation">4dp</dimen>
+
+    <!-- Dimensiones del relativeContent -->
+    <dimen name="padding_relativeContent">6dp</dimen>
+    <dimen name="marginTop_relativeContent">0dp</dimen>
+
+    <!-- Dimensiones del View RelativeContent -->
+    <dimen name="height_view_relativeContent">20dp</dimen>
+
+    <!-- Dimensiones de las imágenes de la vista principal -->
+    <dimen name="img_main_row1">630dp</dimen>
+    <dimen name="img_main_row2">510dp</dimen>
+    <dimen name="img_main_row3">360dp</dimen>
+    <dimen name="img_main_row4">420dp</dimen>
+    <dimen name="img_main_row5">360dp</dimen>
+    <dimen name="height_relativeLayout_row5">250dp</dimen>
+    <dimen name="marginBottom_img_row5_col1">0dp</dimen>
+    <dimen name="marginLeft_img_row5_col1">6dp</dimen>
+    <dimen name="marginRight_img_row5_col1">6dp</dimen>
+    <dimen name="marginBottom_img_row5_col2">0dp</dimen>
+    <dimen name="marginLeft_img_row5_col2">4dp</dimen>
+    <dimen name="marginRight_img_row5_col2">0dp</dimen>
+    <dimen name="marginBottom_img_row5_col3">0dp</dimen>
+    <dimen name="marginLeft_img_row5_col3">2dp</dimen>
+    <dimen name="marginRight_img_row5_col3">0dp</dimen>
+    <dimen name="margin_img">4dp</dimen>
+
+    <!-- Dimensiones del relativePopup -->
+    <dimen name="margin_relativePopup">0dp</dimen>
+    <dimen name="padding_relativePopup">2dp</dimen>
+    <dimen name="height_view_relativePopup">20dp</dimen>
+
+    <!-- Dimensiones del linearAppBar -->
+    <dimen name="height_linearAppBar">60dp</dimen>
+
+    <!-- Dimensiones del appBarLayout -->
+    <dimen name="margin_AppBar">0dp</dimen>
+    <dimen name="elevation_AppBar">0dp</dimen>
+
+    <!-- Dimensiones del TabLayout -->
+    <dimen name="paddingLeft_TabLayout">8dp</dimen>
+    <dimen name="paddingRight_TabLayout">8dp</dimen>
+
+    <!-- Dimensiones del closePopup -->
+    <dimen name="padding_closePopup">12dp</dimen>
+
+
+
+    <!-- ***** activity_view_player.xml ***** -->
+    <!-- Tamaño letra Cabecera -->
+    <dimen name="height_cabecera">70dp</dimen>
+    <dimen name="size_letter_cabecera">36sp</dimen>
+    <dimen name="padding_arrow_cabecera">8dp</dimen>
+    <dimen name="height_view_shadow_cabecera">6dp</dimen>
+
+    <!-- Dimensiones del header -->
+    <dimen name="width_header">0dp</dimen>
+
+    <!-- Dimensiones imagen perfil jugador -->
+    <dimen name="width_profile_player">234dp</dimen>
+    <dimen name="height_profile_player">424dp</dimen>
+    <dimen name="margin_left_profile_player">12dp</dimen>
+    <dimen name="margin_right_profile_player">24dp</dimen>
+
+    <!-- Dimensiones informacion principal jugador -->
+    <dimen name="marginTop_name_player">6dp</dimen>
+    <dimen name="size_letter_name_player">32sp</dimen>
+    <dimen name="marginTop_surname_player">6dp</dimen>
+    <dimen name="size_letter_surname_player">44sp</dimen>
+    <dimen name="size_letter_statement">22sp</dimen>
+    <dimen name="size_letter_info_player">24sp</dimen>
+    <dimen name="size_flag_country_birth">30dp</dimen>
+    <dimen name="padding_demTxtJugador">6dp</dimen>
+    <dimen name="margin_right_demarcation">10dp</dimen>
+    <dimen name="width_demarcation">120dp</dimen>
+    <dimen name="height_demarcation">60dp</dimen>
+    <dimen name="view_demarc">2dp</dimen>
+
+    <!-- Dimensiones del SlidingTabLayout -->
+    <dimen name="height_slidingTabLayout">60dp</dimen>
+    <dimen name="size_letter_slidingTabLayout">25sp</dimen>
+    <dimen name="height_view_slidingTabLayout">10dp</dimen>
+    <item name="padding_slidingTabLayout" format="float" type="dimen">28.57</item>
+
+
+
+    <!-- ***** header_placeholder.xml ***** -->
+    <!-- Dimensiones del header_placeholder -->
+    <dimen name="height_header_placeholder">442dp</dimen>
+    <dimen name="padding_header_placeholder">442dp</dimen>
+
+
+    <!-- ***** popup_league_item.xml popup_player_item.xml ***** -->
+    <!-- Dimensiones del item popup -->
+    <dimen name="tab_popup_icon_size">12dp</dimen>
+    <dimen name="padding_item">4dp</dimen>
+    <dimen name="height_view_item">2dp</dimen>
+    <dimen name="padding_layout_card">4dp</dimen>
+    <dimen name="padding_img_card">10dp</dimen>
+    <dimen name="size_img_card_league">120dp</dimen>
+    <dimen name="height_img_card_player">120dp</dimen>
+    <dimen name="width_img_card_player">120dp</dimen>
+    <dimen name="marginLeft_img_card_player">4dp</dimen>
+    <dimen name="padding_left_info_card">28dp</dimen>
+    <dimen name="size_letter_league_card">40sp</dimen>
+    <dimen name="size_letter_num_players">34sp</dimen>
+    <dimen name="width_arrow_card">60dp</dimen>
+    <dimen name="margin_bottom_name_player_card">-6dp</dimen>
+    <dimen name="size_letter_name_player_card">28sp</dimen>
+    <dimen name="size_letter_surname_player_card">36sp</dimen>
+    <dimen name="size_letter_info_player_card">28sp</dimen>
+
+
+
+    <!-- ***** recycler_bioplay.xml ***** -->
+    <dimen name="height_space_scroll_bioplaystats">450dp</dimen>
+    <dimen name="margin_top_img_scroll_bioplaystats">14dp</dimen>
+    <dimen name="margin_bottom_img_scroll_bioplaystats">22dp</dimen>
+    <dimen name="size_letter_text_scroll_bioplaystats">34sp</dimen>
+    <dimen name="padding_relativeLayout_scroll_bioplaystats">5sp</dimen>
+    <dimen name="padding_linearLayout_scroll_bioplaystats">5sp</dimen>
+    <dimen name="height_img_bioplay">@dimen/wrap_content</dimen>
+    <dimen name="marginRight_linearListaFortJugador">20dp</dimen>
+    <dimen name="marginLeft_values_players">20dp</dimen>
+    <dimen name="marginBottom_values_players">30dp</dimen>
+    <dimen name="size_letter_title_values_players">26sp</dimen>
+    <dimen name="size_letter_values_players">40sp</dimen>
+    <item name="marginTop_values_players" format="integer" type="dimen">0</item>
+    <dimen name="size_img_iconStat">60dp</dimen>
+
+
+    <!-- ***** recycler_stats.xml and scroll_bioplay.xml ***** -->
+    <dimen name="height_img_iconStat">60dp</dimen>
+    <dimen name="margin_img_iconStat">16dp</dimen>
+    <dimen name="size_letter_titlestats">40sp</dimen>
+    <dimen name="height_viewstats">2dp</dimen>
+    <dimen name="margin_viewstats">10dp</dimen>
+    <dimen name="marginTop_viewstats">50dp</dimen>
+
+
+    <!-- ***** sliding_tab_view.xml ***** -->
+    <dimen name="padding_sliding_tab_view">6dp</dimen>
+    <dimen name="size_letter_sliding_tab_view">150sp</dimen>
+
+
+    <!-- ***** tab_popup_main.xml ***** -->
+    <dimen name="width_tab_popup_main">40dp</dimen>
+
+    <!-- ***** text_tab_view_player.xml ***** -->
+    <dimen name="padding_text_tab_view_player">6dp</dimen>
+    <dimen name="size_letter_tab_view_player">50sp</dimen>
+
+    <!-- Recurso para dimensiones match_parent o wrap_content -->
+    <item name="match_parent" format="integer" type="dimen">-2</item>
+    <item name="wrap_content" format="integer" type="dimen">-4</item>
+
+</resources>

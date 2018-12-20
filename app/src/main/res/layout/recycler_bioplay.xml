@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearContentBioPlay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/padding_relativeLayout_scroll_bioplaystats"
+    android:paddingRight="@dimen/padding_relativeLayout_scroll_bioplaystats"
+    android:background="#e7e4df"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_linearLayout_scroll_bioplaystats"
+        android:background="#FAF8F4">
+
+        <View
+            android:id="@+id/espacioInicial"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_space_scroll_bioplaystats"
+            android:visibility="gone"/>
+
+        <HorizontalScrollView
+            android:id="@+id/scrollValoresJugadores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:visibility="gone">
+
+            <TableLayout
+                android:id="@+id/tableValoresJugadores"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:weightSum="100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/linearListaFortJugador"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#FAF8F4"
+                        android:layout_weight="50"
+                        android:layout_marginRight="@dimen/marginRight_linearListaFortJugador">
+
+                        <TextView
+                            android:id="@+id/tvFortalezas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/marginLeft_values_players"
+                            android:layout_marginBottom="@dimen/marginBottom_values_players"
+                            android:text="Fortalezas"
+                            android:textColor="@color/colorPrueba7"
+                            android:textSize="@dimen/size_letter_title_values_players" />
+
+                        <LinearLayout
+                            android:id="@+id/linearFortJugadores"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearListaDebJugador"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#FAF8F4"
+                        android:layout_weight="50">
+
+                        <TextView
+                            android:id="@+id/tvDebilidades"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/marginLeft_values_players"
+                            android:layout_marginBottom="@dimen/marginBottom_values_players"
+                            android:text="Debilidades"
+                            android:textColor="@color/colorPrueba7"
+                            android:textSize="@dimen/size_letter_title_values_players" />
+
+                        <LinearLayout
+                            android:id="@+id/linearDebJugadores"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:id="@+id/linear_bioplay_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/bioplay_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-6925377246649300/8001352216">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_bottom_img_scroll_bioplaystats"
+            android:paddingTop="@dimen/margin_top_img_scroll_bioplaystats"
+            android:background="#FAF8F4">
+
+            <TextView
+                android:id="@+id/tvPrueba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="prueba"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeImgGifPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgGifPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_player"
+                android:adjustViewBounds="true"
+                android:visibility="visible"/>
+
+            <ImageView
+                android:id="@+id/clickImgGifPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:alpha="0.5"
+                android:src="@drawable/playanalisis"
+                android:visibility="gone"
+                android:layout_alignParentEnd="false"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifPlayerr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:src="@drawable/icon_landscape"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvAutorFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Autor: "
+            android:textColor="#646464"
+            android:textSize="@dimen/size_letter_statement"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

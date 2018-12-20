@@ -1,0 +1,128 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_middleline_margin">7dp</dimen>
+    <dimen name="activity_rightline_margin">2dp</dimen>
+    <dimen name="activity_container_margin">12dp</dimen>
+    <dimen name="margin_column_tablestats">5dp</dimen>
+
+    <dimen name="tab_height">50dp</dimen>
+    <dimen name="imageview_height">200dp</dimen>
+    <dimen name="header_height">310dp</dimen>
+    <dimen name="min_header_height">200dp</dimen>
+
+
+
+    <!-- ***** activity_main.xml ***** -->
+    <!-- Dimensiones del Toolbar -->
+    <dimen name="height_toolbar">75dp</dimen>
+    <dimen name="elevation_toolbar">12dp</dimen>
+
+    <!-- Dimensiones del título del Toolbar -->
+    <dimen name="padding_tittle_toolbar">6dp</dimen>
+    <dimen name="margin_tittle_toolbar">12dp</dimen>
+
+    <!-- Dimensiones del botón del Toolbar -->
+    <dimen name="width_button_toolbar">50dp</dimen>
+    <dimen name="margin_button_toolbar">4dp</dimen>
+
+    <!-- Dimensiones de la separación -->
+    <dimen name="height_separation">3dp</dimen>
+
+    <!-- Dimensiones del relativeContent -->
+    <dimen name="padding_relativeContent">8dp</dimen>
+
+    <!-- Dimensiones de las imágenes de la vista principal -->
+    <dimen name="img_main_row1">350dp</dimen>
+    <dimen name="img_main_row2">290dp</dimen>
+    <dimen name="img_main_row3">258dp</dimen>
+    <dimen name="img_main_row4">250dp</dimen>
+    <dimen name="margin_img">2dp</dimen>
+
+    <!-- Dimensiones del relativePopup -->
+    <dimen name="margin_relativePopup">0dp</dimen>
+    <dimen name="padding_relativePopup">1dp</dimen>
+
+    <!-- Dimensiones del linearAppBar -->
+    <dimen name="height_linearAppBar">40dp</dimen>
+
+    <!-- Dimensiones del appBarLayout -->
+    <dimen name="margin_AppBar">0dp</dimen>
+
+    <!-- Dimensiones del closePopup -->
+    <dimen name="padding_closePopup">8dp</dimen>
+
+
+
+    <!-- ***** activity_view_player.xml ***** -->
+    <!-- Tamaño letra Cabecera -->
+    <dimen name="size_letter_cabecera">20sp</dimen>
+    <item name="translation_cabecera" format="integer" type="dimen">5</item>
+
+    <!-- Dimensiones del header -->
+    <dimen name="width_header">0dp</dimen>
+
+    <!-- Dimensiones imagen perfil jugador -->
+    <dimen name="width_profile_player">117dp</dimen>
+    <dimen name="height_profile_player">200dp</dimen>
+    <dimen name="margin_left_profile_player">8dp</dimen>
+    <dimen name="margin_right_profile_player">16dp</dimen>
+
+    <!-- Dimensiones informacion principal jugador -->
+    <dimen name="margin_name_player">-10dp</dimen>
+    <dimen name="size_letter_name_player">30sp</dimen>
+    <dimen name="size_letter_surname_player">35sp</dimen>
+    <dimen name="size_letter_statement">12sp</dimen>
+    <dimen name="size_letter_info_player">15sp</dimen>
+    <dimen name="size_flag_country_birth">20dp</dimen>
+    <dimen name="margin_top_demarcation">5dp</dimen>
+    <dimen name="height_demarcation">50dp</dimen>
+
+    <!-- Dimensiones del SlidingTabLayout -->
+    <dimen name="height_slidingTabLayout">55dp</dimen>
+    <dimen name="size_letter_slidingTabLayout">16sp</dimen>
+
+
+
+    <!-- ***** header_placeholder.xml ***** -->
+    <!-- Dimensiones del header_placeholder -->
+    <dimen name="height_header_placeholder">310dp</dimen>
+
+
+
+    <!-- ***** popup_league_item.xml popup_player_item.xml ***** -->
+    <!-- Dimensiones del item popup -->
+    <dimen name="tab_popup_icon_size">70dp</dimen>
+    <dimen name="padding_item">2dp</dimen>
+    <dimen name="height_view_item">1dp</dimen>
+    <dimen name="padding_layout_card">3dp</dimen>
+    <dimen name="size_img_card">70dp</dimen>
+    <dimen name="padding_left_info_card">20dp</dimen>
+    <dimen name="size_letter_league_card">25sp</dimen>
+    <dimen name="size_letter_num_players">18sp</dimen>
+    <dimen name="width_arrow_card">15dp</dimen>
+    <dimen name="margin_bottom_name_player_card">-5dp</dimen>
+    <dimen name="size_letter_name_player_card">20sp</dimen>
+    <dimen name="size_letter_surname_player_card">25sp</dimen>
+    <dimen name="size_letter_info_player_card">14sp</dimen>
+
+
+
+    <!-- ***** scroll_bioplaystats_tab.xml ***** -->
+    <dimen name="height_space_scroll_bioplaystats">200dp</dimen>
+    <dimen name="margin_top_img_scroll_bioplaystats">10dp</dimen>
+    <dimen name="margin_bottom_img_scroll_bioplaystats">15dp</dimen>
+    <dimen name="size_letter_text_scroll_bioplaystats">6.5sp</dimen>
+
+
+
+    <!-- ***** sliding_tab_view.xml ***** -->
+    <dimen name="padding_sliding_tab_view">5dp</dimen>
+    <dimen name="size_letter_sliding_tab_view">45sp</dimen>
+
+
+
+    <!-- ***** text_tab_view_player.xml ***** -->
+    <dimen name="padding_text_tab_view_player">4dp</dimen>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dimensiones del SlidingTabLayout -->
+    <dimen name="height_slidingTabLayout">70dp</dimen>
+    <dimen name="size_letter_slidingTabLayout">17sp</dimen>
+    <dimen name="height_view_slidingTabLayout">10dp</dimen>
+    <item name="padding_slidingTabLayout" format="float" type="dimen">28.57</item>
+
+
+    <!-- ***** popup_league_item.xml popup_player_item.xml ***** -->
+    <!-- Dimensiones del item popup -->
+    <dimen name="tab_popup_icon_size">12dp</dimen>
+    <dimen name="padding_item">4dp</dimen>
+    <dimen name="height_view_item">2dp</dimen>
+    <dimen name="padding_layout_card">4dp</dimen>
+    <dimen name="padding_img_card">10dp</dimen>
+    <dimen name="size_img_card_league">120dp</dimen>
+    <dimen name="height_img_card_player">120dp</dimen>
+    <dimen name="width_img_card_player">120dp</dimen>
+    <dimen name="marginLeft_img_card_player">4dp</dimen>
+    <dimen name="padding_left_info_card">28dp</dimen>
+    <dimen name="size_letter_league_card">40sp</dimen>
+    <dimen name="size_letter_num_players">34sp</dimen>
+    <dimen name="width_arrow_card">60dp</dimen>
+    <dimen name="margin_bottom_name_player_card">-6dp</dimen>
+    <dimen name="size_letter_name_player_card">26sp</dimen>
+    <dimen name="size_letter_surname_player_card">34sp</dimen>
+    <dimen name="size_letter_info_player_card">26sp</dimen>
+
+
+
+    <!-- ***** recycler_bioplay.xml ***** -->
+    <dimen name="height_space_scroll_bioplaystats">450dp</dimen>
+    <dimen name="margin_top_img_scroll_bioplaystats">14dp</dimen>
+    <dimen name="margin_bottom_img_scroll_bioplaystats">22dp</dimen>
+    <dimen name="size_letter_text_scroll_bioplaystats">22sp</dimen>
+    <dimen name="padding_relativeLayout_scroll_bioplaystats">5sp</dimen>
+    <dimen name="padding_linearLayout_scroll_bioplaystats">5sp</dimen>
+    <dimen name="height_img_bioplay">@dimen/wrap_content</dimen>
+    <dimen name="marginRight_linearListaFortJugador">20dp</dimen>
+    <dimen name="marginLeft_values_players">20dp</dimen>
+    <dimen name="marginBottom_values_players">30dp</dimen>
+    <dimen name="size_letter_title_values_players">36sp</dimen>
+    <dimen name="size_letter_values_players">22sp</dimen>
+    <item name="marginTop_values_players" format="integer" type="dimen">0</item>
+    <dimen name="size_img_iconStat">60dp</dimen>
+
+
+    <!-- ***** recycler_stats.xml and scroll_bioplay.xml ***** -->
+    <dimen name="height_img_iconStat">60dp</dimen>
+    <dimen name="margin_img_iconStat">16dp</dimen>
+    <dimen name="size_letter_titlestats">40sp</dimen>
+    <dimen name="height_viewstats">2dp</dimen>
+    <dimen name="margin_viewstats">10dp</dimen>
+    <dimen name="marginTop_viewstats">50dp</dimen>
+
+</resources>

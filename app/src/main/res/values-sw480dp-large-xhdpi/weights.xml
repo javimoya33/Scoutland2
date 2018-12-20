@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dimensiones de la tabla de estadísticas -->
+    <integer name="size_icon_stats">65</integer>
+
+</resources>

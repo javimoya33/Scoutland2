@@ -1,0 +1,20 @@
+language: android
+android:
+   components:
+    - tools
+    - build-tools-23.0.3
+    - android-23
+    - platform-tools
+    - extra-android-m2repository
+
+jdk: oraclejdk7
+
+notifications:
+  email: false
+
+before_install:
+  - sudo apt-get update -qq
+  - if [ `uname -m` = x86_64 ]; then sudo apt-get install -qq --force-yes libgd2-xpm ia32-libs ia32-libs-multiarch > /dev/null; fi
+
+script:
+  - ./gradlew clean build

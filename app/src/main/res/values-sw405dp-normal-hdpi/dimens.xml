@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dimensiones de las imágenes de la vista principal -->
+    <dimen name="img_main_row1">360dp</dimen>
+    <dimen name="img_main_row2">275dp</dimen>
+    <dimen name="img_main_row3">215dp</dimen>
+    <dimen name="img_main_row4">240dp</dimen>
+    <dimen name="img_main_row5">195dp</dimen>
+    <dimen name="height_relativeLayout_row5">155dp</dimen>
+
+    <!-- Dimensiones del item popup -->
+    <dimen name="size_img_card_league">70dp</dimen>
+
+    <!-- Dimensiones del SlidingTabLayout -->
+    <dimen name="height_slidingTabLayout">42dp</dimen>
+    <dimen name="size_letter_slidingTabLayout">11sp</dimen>
+    <dimen name="height_view_slidingTabLayout">5dp</dimen>
+
+    <!-- ***** recycler_bioplay.xml ***** -->
+    <dimen name="height_space_scroll_bioplaystats">240dp</dimen>
+    <dimen name="size_letter_text_scroll_bioplaystats">14sp</dimen>
+    <dimen name="size_letter_title_values_players">20sp</dimen>
+    <dimen name="size_letter_values_players">14sp</dimen>
+
+</resources>
